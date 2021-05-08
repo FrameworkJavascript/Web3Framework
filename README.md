@@ -23,9 +23,9 @@ commented and short.
 
 ![screenshot2](./screenshot3.png)
 
-![screenshot2](./screenshot2.png)
-
 ![screenshot](./screenshot.png)
+
+![screenshot2](./screenshot2.png)
 
 # What should I do with this
 
