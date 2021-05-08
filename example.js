@@ -8,6 +8,7 @@
 const Web3Modal = window.Web3Modal.default;
 const WalletConnectProvider = window.WalletConnectProvider.default;
 const Fortmatic = window.Fortmatic;
+const ethProvider = window.frame;
 const evmChains = window.evmChains;
 
 // Web3modal instance
@@ -46,12 +47,16 @@ function init() {
   // like MetaMask, Brave or Opera is added automatically by Web3modal
   const providerOptions = {
     walletconnect: {
-      package: WalletConnectProvider,
+      package: WalletConnectProvider, // required
       options: {
         // Mikko's test key - don't copy as your mileage may vary
-        infuraId: "8043bb2cf99347b1bfadfb233c5325c0",
+        infuraId: "8043bb2cf99347b1bfadfb233c5325c0", // required
       }
     },
+    
+  frame: {
+    package: ethProvider // required
+  },
 
     fortmatic: {
       package: Fortmatic,
