@@ -21,6 +21,8 @@ commented and short.
 
 * [View demo hosted on Github](https://web3modal.github.io/web3modal-vanilla-js-example/)
 
+![screenshot2](./screenshot3.png)
+
 ![screenshot2](./screenshot2.png)
 
 ![screenshot](./screenshot.png)
