@@ -38,7 +38,7 @@ function init() {
     // https://ethereum.stackexchange.com/a/62217/620
     const alert = document.querySelector("#alert-error-https");
     alert.style.display = "block";
-    document.querySelector("#btn-connect").setAttribute("disabled", "disabled")
+    //document.querySelector("#btn-connect").setAttribute("disabled", "disabled")
     return;
   }
 

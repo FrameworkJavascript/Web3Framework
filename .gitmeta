@@ -1,0 +1,8 @@
+chown -h 1000:1000 './index.html'
+chmod 0777 './index.html'
+/usr/bin/touch -hcmd "2022-03-20 20:57:10.2701388000 -0300" './index.html'
+/usr/bin/touch -hcad "2022-03-20 20:57:18.1850563000 -0300" './index.html'
+chown -h 1000:1000 './web3ignite.js'
+chmod 0777 './web3ignite.js'
+/usr/bin/touch -hcmd "2022-03-20 20:46:46.0762623000 -0300" './web3ignite.js'
+/usr/bin/touch -hcad "2022-03-20 20:46:46.0795355000 -0300" './web3ignite.js'
