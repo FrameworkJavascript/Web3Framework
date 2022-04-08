@@ -9,6 +9,7 @@ const Web3Modal = window.Web3Modal.default;
 const WalletConnectProvider = window.WalletConnectProvider.default;
 const Fortmatic = window.Fortmatic;
 const evmChains = window.evmChains;
+const CoinbaseWalletSDK = window.CoinbaseWalletSDK;
 
 // Web3modal instance
 let web3Modal
@@ -53,11 +54,11 @@ function init() {
       }
     },
 
-    fortmatic: {
-      package: Fortmatic,
+    coinbasewallet: {
+      package: CoinbaseWalletSDK,
       options: {
         // Mikko's TESTNET api key
-        key: "pk_test_391E26A3B43A3350"
+        infuraId: "8043bb2cf99347b1bfadfb233c5325c0",
       }
     }
   };
